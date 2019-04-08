@@ -1,0 +1,96 @@
+<!-- Full Page Intro -->
+<div class="view"
+  style="background-image: url('https://i.imgur.com/eUnFp7E.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 800px">
+  <!-- Mask & flexbox options-->
+  <div class="mask rgba-gradient align-items-center">
+    <!-- Content -->
+    <div class="container">
+      <form method="POST" action="/">
+        <div class="row">
+          <!--left side-->
+          <div class="col-5 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft"
+            style="padding: 150px 50px">
+            <h1 class="h1-responsive font-weight-bold mt-sm-5" style="color: white">身為一個
+              {{#if career}}
+              <span style="color: #e5c212">
+                {{career}}
+              </span>{{/if}}
+            </h1>
+            <hr class="hr-light">
+            <h2 class="mb-4" style="color: white">
+              {{#if talk}}
+              <span>
+                {{talk}}
+              </span>
+              <span class="mb-4" style="color: white">
+                吧！
+              </span>
+              {{/if}}
+            </h2>
+            <button type="submit" class="btn btn-warning" style="color: black; font-weight: 700">週末加班愉快</button>
+          </div>
+          <!--left side end-->
+          <!--right side-->
+          <div class="col">
+            <div class="container">
+              <div class="row">
+                <div class="col-4 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft"
+                  style="padding: 160px 10px">
+                  <div class="designer"
+                    style="background-image: url('https://i.imgur.com/9GpxO6i.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 300px">
+                  </div>
+                  <!--設計師radio-->
+                  <div class="form-group form-row mb-2 align-items-center">
+                    <div class="col-md-8">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="designer" value="designer" name="job"
+                          {{#if options.designer}}checked{{/if}}>
+                        <label class="custom-control-label" for="designer">
+                        </label>
+                        <label for="designer" class="col-form-label" style="color: white">設計師</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end-->
+                </div>
+                <div class="col-4 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft"
+                  style="padding: 160px 10px">
+                  <div class="designer"
+                    style="background-image: url('https://i.imgur.com/5z0RzZc.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 300px">
+                  </div>
+                  <!--工程師radio-->
+                  <div class="form-group form-row mb-2 align-items-center">
+                    <div class="col-md-8">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="engineer" value="engineer" name="job">
+                        <label class="custom-control-label" for="engineer">
+                        </label>
+                        <label for="engineer" class="col-form-label" style="color: white">工程師</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end-->
+                </div>
+                <div class="col-4 white-text text-center text-md-left mt-xl-5 mb-5 wow fadeInLeft"
+                  style="padding: 160px 10px">
+                  <div class="designer"
+                    style="background-image: url('https://i.imgur.com/UYDSImM.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 300px">
+                  </div>
+                  <!--創業家radio-->
+                  <div class="form-group form-row mb-2 align-items-center">
+                    <div class="col-md-8">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" class="custom-control-input" id="entrepreneur" value="entrepreneur"
+                          name="job">
+                        <label class="custom-control-label" for="entrepreneur">
+                        </label>
+                        <label for="entrepreneur" class="col-form-label" style="color: white">創業家</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end-->
+                </div>
+              </div>
+            </div>
+            <!--right side end-->
+      </form>
