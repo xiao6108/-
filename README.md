@@ -2,8 +2,6 @@
 
 Create one scentance for the career which you choose
 
-[TOC]
-
 ### Prerequisites
 
 Use nvm install Node.js 
