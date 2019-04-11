@@ -25,6 +25,8 @@ npm i express
 npm i express-handlebars
 npm i body-parser
 ```
+Folder Structure
+```
 Generator
 ｜＿＿public
 ｜   ｜＿＿stylesheets
@@ -39,7 +41,7 @@ Generator
 ｜＿＿generate.js
 ｜＿＿app.js
 ｜＿＿package.json
-
+```
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct
