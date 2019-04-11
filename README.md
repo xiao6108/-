@@ -44,12 +44,12 @@ Generator
 ```
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct
+Please read [CONTRIBUTING.md](https://github.com/xiao6108/Swear-Generate/blob/master/README.md) for details on our code of conduct
 
 
 ## Authors
 
-* **呂亞宸** - *Initial work* - [Github: xiao6108](https://github.com/PurpleBooth)
+* **呂亞宸** - *Initial work* - [Github: xiao6108](https://github.com/xiao6108)
 
 
 ## Runing Sample
